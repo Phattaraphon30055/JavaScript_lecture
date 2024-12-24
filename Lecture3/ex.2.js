@@ -1,7 +1,6 @@
-const myArray = ["Table", "Chairs", "Couch"];
+let furniture = ['Table', 'Chairs', 'Couch'];
 
-myArray.forEach(item => {
-  for (let i = 0; i < item.length; i++) {
-    console.log(item[i]);
-  }
+// สำหรับแต่ละไอเท็มในอาร์เรย์
+furniture.forEach(item => {
+    console.log(`Letters in "${item}":`, item.split(''));
 });
